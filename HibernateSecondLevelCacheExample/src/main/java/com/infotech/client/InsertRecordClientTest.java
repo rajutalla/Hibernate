@@ -21,7 +21,7 @@ public class InsertRecordClientTest {
 			
 			Employee employee2 = new Employee();
 			employee2.setEmployeeName("Barry Johnson");
-			employee2.setUsername("barryj");
+			employee2.setUsername("raju");
 			employee2.setPassword("barry@123");
 			employee2.setAccessLevel(1);
 			

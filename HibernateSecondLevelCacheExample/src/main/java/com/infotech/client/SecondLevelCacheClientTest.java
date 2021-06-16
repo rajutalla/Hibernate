@@ -13,7 +13,7 @@ public class SecondLevelCacheClientTest {
 			Long employeeId = 1L;
 			session = HibernateUtil.getSessionFactory().openSession();
 			Employee employee1 = session.get(Employee.class, employeeId);
-			System.out.println(employee1);
+			
 
 			System.out.println("-------------------------------------------------------------");
 		} catch (Exception e) {
